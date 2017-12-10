@@ -1,12 +1,96 @@
+
+body{
+    background-image: url("../images/crystals.jpg");
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    font-style: initial;
+    background: transparent;
+}
+
+h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 40px;
+    float: left;
+    position: relative;
+    left: 263px;
+    padding-top: 15px;
+}
+
+
+
+#one{
+    z-index: 50;
+    position: relative;
+    float: left;
+    left: 40px;
+    top: 15px;
+}
+
+#two{
+    z-index: 40;
+    position: relative;
+    float: right;
+    right: 40px;
+    top: 15px;
+}
+
+#red, #cyan, #purple, #blue{
+    position: relative;
+    top: 24px;
+}
+
+.jumbotron, .well{
+    background:rgb(204, 204, 204);
+}
+
 .panel{
     margin-top:20px;
+    background:rgb(204, 204, 204);
 }
 
 .panel-body{
     text-align: center;
+    background:rgb(204, 204, 204);
 }
 
 #numberToMatch{
-    color: red;
+    font-size: 18px;
     text-align: center;
+}
+
+.yourScore{
+    font-size: 18px;
+    text-align: center;
+}
+
+.wins, .losses, .myResult{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    padding-top: 12px;
+}
+
+@media screen and (max-width:980px){
+    h1{
+        position: static;
+    }
+
+    #one, #two{
+        position: static;
+    }
+
+    #one{
+        left: 0px;
+    }
+
+    #two{
+        right: 0px;
+    }
 }
