@@ -1,0 +1,12 @@
+.panel{
+    margin-top:20px;
+}
+
+.panel-body{
+    text-align: center;
+}
+
+#numberToMatch{
+    color: red;
+    text-align: center;
+}
